@@ -1,9 +1,9 @@
 **Hands-on experience with SAP Enterprise Threat Detection, cloud edition**
 
 **Exercise: Working with SAP Enterprise Threat Detection**
-**Version TechEd 2025**
+**Version TechEd 2026**
 
-**Based on SAP Enterprise Threat Detection, cloud edition, Version November 2025**
+**Based on SAP Enterprise Threat Detection, cloud edition, Version November 2026**
 
 **Table of Contents**
 
@@ -30,5 +30,5 @@ Overview & Touring SAP Enterprise Threat Detection, public cloud
 8.  Consumer/Processor role: Work with Investigation reports
 
 
-For the exercise, please open the [TechEd2025 ETDc Hands-on Script](./TechEd2025_ETDc_Hands-on_Script.md)
+For the exercise, please open the [TechEd2026 ETDc Hands-on Script](./TechEd2026_ETDc_Hands-on_Script.md)
 

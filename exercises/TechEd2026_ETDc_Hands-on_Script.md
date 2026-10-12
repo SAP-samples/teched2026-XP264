@@ -11,7 +11,7 @@ October 2026**
 
 **\**
 
-# Contents {#contents .TOC-Heading}
+# Contents
 
 Overview & Touring SAP Enterprise Threat Detection, public cloud
 [3](#overview-touring-sap-enterprise-threat-detection-public-cloud)

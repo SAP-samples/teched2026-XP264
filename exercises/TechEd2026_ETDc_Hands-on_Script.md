@@ -132,6 +132,7 @@ In the ensuing (logon) screen, use the ID indicated to you ([01-40;
 afterwards]{.mark} referred to as "##").
 
 > User: Will be provided in the Session
+> 
 > Password: Will be provided in the session
 
 If you inadvertently lock the password, please notify the instructor.

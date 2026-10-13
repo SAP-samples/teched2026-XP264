@@ -6,79 +6,64 @@ edition**
 **Based on SAP Enterprise Threat Detection, cloud edition, Version
 October 2026**
 
-**Get Hands-On with the New
-*SAP Enterprise Threat Detection, cloud edition***
-
-**\**
+**Get Hands-On with the new SAP Enterprise Threat Detection, cloud edition**
 
 # Contents
 
-Overview & Touring SAP Enterprise Threat Detection, public cloud
-[3](#overview-touring-sap-enterprise-threat-detection-public-cloud)
+[0. Overview & Touring SAP Enterprise Threat Detection, public cloud](#overview--touring-sap-enterprise-threat-detection-public-cloud)
 
-1\. Logon to the Monitoring Console of SAP Enterprise Threat Detection,
-public cloud
-[4](#logon-to-the-monitoring-console-of-sap-enterprise-threat-detection-public-cloud)
+[1. Logon to the Monitoring Console of SAP Enterprise Threat Detection,
+public cloud](#logon-to-the-monitoring-console-of-sap-enterprise-threat-detection-public-cloud)
 
-1.1 Got a Warning 'Select a Tenant' [6](#got-a-warning-select-a-tenant)
+[1.1 Got a Warning 'Select a tenant'](#got-a-warning-select-a-tenant)
 
-1.2 UI Round trip [6](#ui-round-trip)
+[1.2 UI Round Trip](#ui-round-trip)
 
-2\. First Log Events from SAP S/4HANA
-[17](#first-log-events-from-sap-s4hana)
+[2. First Log Events from SAP S/4HANA](#first-log-events-from-sap-s4hana)
 
-2.1 Logon & Preparation Steps [17](#logon-preparation-steps)
+[2.1 Logon & Preparation Steps](#logon-preparation-steps)
 
-2.2 Creating a User With High Privileges
-[18](#creating-a-user-with-high-privileges)
+[2.2 Creating a User With High Privileges](#creating-a-user-with-high-privileges)
 
-3\. Checking Alerts and Creating Investigations
-[21](#checking-alerts-and-creating-investigations)
+[3. Checking Alerts and Creating Investigations](#checking-alerts-and-creating-investigations)
 
-3.1 Check for Log Events [21](#check-for-log-events)
+[3.1 Check for Log Events](#check-for-log-events)
 
-3.2 Search for Alerts [21](#search-for-alerts)
+[3.2 Search for Alerts](#search-for-alerts)
 
-3.3 Interpreting the Investigation Entries
-[23](#interpreting-the-investigation-entries)
+[3.3 Interpreting the Investigation Entries](#interpreting-the-investigation-entries)
 
-3.3.1 Tab 'Investigation Result' [23](#tab-investigation-result)
+[3.3.1 Tab 'Investigation Result'](#tab-investigation-result)
 
-3.3.2 Tab 'Alerts' [23](#tab-alerts)
+[3.3.2 Tab 'Alerts'](#tab-alerts)
 
-3.3.3 Tab 'Actions' [24](#tab-actions)
+[3.3.3 Tab 'Actions'](#tab-actions)
 
-3.3.4 Tab 'Users' [24](#tab-users)
+[3.3.4 Tab 'Users'](#tab-users)
 
-3.3.5 Tab 'Behavior Analysis' [25](#tab-behavior-analysis)
+[3.3.5 Tab 'Behavior Analysis'](#tab-behavior-analysis)
 
-3.3.6 Tab 'Log Events' [26](#tab-log-events)
+[3.3.6 Tab 'Log Events'](#tab-log-events)
 
-4\. Trigger a Critical Action from SAP S/4HANA: Download of a Critical
-Database Table
-[26](#trigger-a-critical-action-from-sap-s4hana-download-of-a-critical-database-table)
+[4. Trigger a Critical Action from SAP S/4HANA: Download of a Critical Database Table](#trigger-a-critical-action-from-sap-s4hana-download-of-a-critical-database-table)
 
-5\. User & Environment Behavioral Analysis -- Identify the Critical
-Action in the Forensic Lab
-[28](#user-environment-behavioral-analysis-identify-the-critical-action-in-the-forensic-lab)
+[5. User & Environment Behavioral Analysis -- Identify the Critical Action in the Forensic Lab](#user-environment-behavioral-analysis-identify-the-critical-action-in-the-forensic-lab)
 
-5.1 Build up a Workspace [29](#build-up-a-workspace)
+[5.1 Build up a Workspace](#build-up-a-workspace)
 
-5.1.1 Assigning a Chart [38](#assigning-a-chart)
+[5.1.1 Assigning a Chart](#assigning-a-chart)
 
-6\. From Workspace to Pattern to Alerts
-[39](#from-workspace-to-pattern-to-alerts)
+[6. From Workspace to Pattern to Alerts](#from-workspace-to-pattern-to-alerts)
 
-6.1 Understanding Patterns [39](#understanding-patterns)
+[6.1 Understanding Patterns](#understanding-patterns)
 
-7\. Finalize the Investigation [42](#finalize-the-investigation)
+[7. Finalize the Investigation](#finalize-the-investigation)
 
-8\. Consumer/Processor role: Work with Investigation reports
-[45](#consumerprocessor-role-work-with-investigation-reports)
+[8. Consumer/Processor role: Work with Investigation reports](#consumerprocessor-role-work-with-investigation-reports)
 
 # Overview & Touring SAP Enterprise Threat Detection, public cloud
 
-In this hands-on session and workshop of about 1.5 -- 2h, you will get
+In this hands-on session and workshop of about 1.5 - 2h, you will get
 to know the basic functioning of *SAP Enterprise Threat Detection,
 public cloud*, including the terminology employed.
 
@@ -93,7 +78,7 @@ relevance, as well as ensure that the knowledge about the attack vector
 is added to the repository on which *SAP Enterprise Threat Detection,
 public cloud* will automatically alert going forward.
 
-In a 3^rd^ role, you will act as a consumer/processor of the results
+In a third role, you will act as a consumer/processor of the results
 (Investigation Report), that was created by you in your second role as a
 security specialist.
 
@@ -111,7 +96,7 @@ the consumer/processor role
 Access the [*SAP Enterprise Threat Detection, public cloud* monitoring
 console](https://etd-cloud-workshop-partner-nten9gd6-monitoringapprouter.prod.monitoring.etd-cloud.cfapps.eu10-004.hana.ondemand.com/cp.portal/site?targetTenantId=9189d8d0-c3ea-4f11-a145-1a7d13e32c3d&origin=monitoring#Shell-home)
 
-[IMPORTANT:]{.underline}
+**IMPORTANT:**
 
 - You should get the below start page (if not, please empty your browser
   cache and try again).
@@ -119,7 +104,7 @@ console](https://etd-cloud-workshop-partner-nten9gd6-monitoringapprouter.prod.mo
 - Here, select the first entry ("httpsetdtestlogs.accounts.ondemand") to
   log on with the generic workshop users below (not any personal
   credentials -- they won't be recognized in this cloud application).
-  Do **[NOT]{.underline}** choose the "Default Identity Provider" (here,
+  Do **NOT** choose the "Default Identity Provider" (here,
   the generic users won't work).
 
 ![](media/image2.png)
@@ -128,8 +113,8 @@ User: will be provided in the session
 
 Password: will be provided in the session
 
-In the ensuing (logon) screen, use the ID indicated to you ([01-40;
-afterwards]{.mark} referred to as "##").
+In the ensuing (logon) screen, use the ID indicated to you (01-40;
+afterwards referred to as "##").
 
 > User: Will be provided in the Session
 > 
@@ -161,13 +146,13 @@ they behave.
 
 ![](media/image4.png)
 
-## Got a Warning 'Select a Tenant'
+## Got a Warning 'Select a tenant'
 
-If you encounter a the warning popup
+If you encounter a warning popup
 
 ![](media/image5.png)
 
-the system has lost the information which Tenant you've been working on
+the system has lost the information which tenant you've been working on
 (most likely you had been logged out).
 
 In this case, either start the *SAP Enterprise Threat Detection, public
@@ -181,24 +166,24 @@ Alternatively, you can manually set the correct tenant:
 - Remove filters "active" and press "go".
 
 - The entry "Workshop Demo Customer" will show; select this so the
-  system is aware which Tenant you are working on -- which is relevant
+  system is aware which tenant you are working on - which is relevant
   in case you're a partner providing monitoring services to multiple
-  clients)
+  clients).
 
 ![](media/image6.png)
 
 ![](media/image7.png)
 
-## UI Round trip
+## UI Round Trip
 
-In Manage Setting tab, users can manage system setting like retention
+In the 'Manage Settings' tab, users can manage system setting like retention
 times and time zone etc.
 
 ![](media/image8.png)
 
-In Value list tab, users can manage value lists which are allow or
+In the 'Value Lists' tab, users can manage value lists which are allow or
 disallow list where system analyst and put custom values and even can
-create custom value lists
+create custom value lists.
 
 ![](media/image9.png)
 
@@ -221,7 +206,7 @@ As you know: AI can provide wrong information. Then, you can provide a
 feedback to SAP via the 'Feedback' button, and SAP will centrally repair
 the AI answer, to enhance quality.
 
-In Analyze Log Events tab, the security analyst can view and analyze
+In the 'Analyze Log Events' tab, the security analyst can view and analyze
 customers normalized log data.
 
 ![](media/image12.png)
@@ -232,23 +217,23 @@ object, its criticality, and possible security mitigations.
 
 ![](media/image13.png)
 
-In Manage Alerts tab, system analyst and view and analyze generated
+In the 'Manage Alerts' tab, system analyst and view and analyze generated
 alerts.
 
 ![](media/image14.png)
 
 **Note:** If the Alert attributes contain objects like transactions,
-reports, function modules, services, you get an AI based support about
+reports, function modules, services, you get AI based support about
 the object, its criticality, and possible security mitigations.
 
 ![](media/image15.png)
 
-In Pattern Executions tab, the security analyst can view and check the
-status of pattern executions
+In the 'Pattern Executions' tab, the security analyst can view and check the
+status of pattern executions.
 
 ![](media/image16.png)
 
-In Pattern tab, the security analyst can view and create patterns( i.e.
+In the 'Patterns' tab, the security analyst can view and create patterns( i.e.
 use cases) ![](media/image17.png)
 
 Clicking on one of the patterns, the UI shows its overall modelling and
@@ -257,8 +242,8 @@ description.
 ![](media/image18.png)
 
 If you scroll further down, you see the existing 'Recommendation
-template', which is used for processing corresponding alerts within
-investigations. During the processing, the template is used, to generate
+Templates', which is used for processing corresponding alerts within
+investigations. During the processing, the template is used to generate
 a text by filling the placeholders.
 
 ![](media/image19.png)
@@ -272,34 +257,34 @@ mentioned in the alert (like transactions, reports, function modules,
 services). For custom patterns, a corresponding template can be
 generated as well.
 
-In Investigations tab, the security analyst can view and manage
+In the 'Investigations' tab, the security analyst can view and manage
 investigations.
 
 ![](media/image20.png)
 
-In 'Record of Actions' tab, system analyst and view use activity logs of
+In the 'Record of Actions' tab, system analysts view activity logs of
 ETD system
 
 ![](media/image21.png)
 
-In Investigations Report tab, the security analyst can view
+In the 'Investigations Report' tab, the security analyst can view
 investigations.
 
 ![](media/image22.png)
 
-In the 'Forensic Lab' tile, and the Workspaces UI, the Security analyst
-can view and create Workspaces, which are used to filter data related to
+In the 'Forensic Lab' tile, and the Workspaces UI, the security analyst
+can view and create workspaces, which are used to filter data related to
 suspicious activities, and to create charts to group the data by any
-criteria. Based on these charts, Patterns, later raising alerts, can be
+criteria. Based on these charts, patterns, later raising alerts, can be
 created.
 
 ![](media/image23.png)
 
 By clicking onto the arrow on the right at any line, you see the
 modelling of the forensic workspace, related to filter paths and charts.
-This so part of Exercise Chapter [5.1](#build-up-a-workspace).
+This so part of exercise chapter [5.1](#build-up-a-workspace).
 
-In the Dashboard tile, different standard dashboards are shown, and own
+In the 'Dashboard' tile, different standard dashboards are shown, and own
 custom dashboards can be created.
 
 ![](media/image24.png)

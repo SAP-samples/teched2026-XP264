@@ -48,7 +48,7 @@ blue hyperlink and select "Workshop Demo Customer".
 ![](../media/image3.png)
 
 You will then see the *SAP Enterprise Threat Detection, public cloud*
-monitoring console. Take a bit of time to check by a few apps and how
+monitoring console. Take a bit of time to check out a few apps and see how
 they behave.
 
 ![](../media/image4.png)
@@ -89,7 +89,7 @@ times and time zone etc.
 ![](../media/image8.png)
 
 In the 'Value Lists' tab, users can manage value lists which are allow or
-disallow list where system analyst and put custom values and even can
+disallow list where system analyst can put custom values and even can
 create custom value lists.
 
 ![](../media/image9.png)
@@ -124,7 +124,7 @@ object, its criticality, and possible security mitigations.
 
 ![](../media/image13.png)
 
-In the 'Manage Alerts' tab, system analyst and view and analyze generated
+In the 'Manage Alerts' tab, system analyst can view and analyze generated
 alerts.
 
 ![](../media/image14.png)
@@ -217,4 +217,4 @@ data.
 ![](../media/image27.png)
 
 ---
-Prev: [0. Overview](01_overview.md) | Next: [2. First Log Events from SAP S/4HANA](03_first-log-events.md) | [Contents](00_title-and-contents.md)
+Prev: [0. Overview](01_overview.md) | Next: [2. First Log Events from SAP S/4HANA](03_first-log-events.md) | [Contents](../README.MD)

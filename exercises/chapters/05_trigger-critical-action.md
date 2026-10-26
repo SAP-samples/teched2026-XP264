@@ -69,4 +69,4 @@ to be considered in the context of the raised alerts.
 Let's continue to retrieve and process the raised alerts!
 
 ---
-Prev: [3. Checking Alerts and Creating Investigations](04_checking-alerts-and-investigations.md) | Next: [5. User & Environment Behavioral Analysis](06_behavioral-analysis-forensic-lab.md) | [Contents](00_title-and-contents.md)
+Prev: [3. Checking Alerts and Creating Investigations](04_checking-alerts-and-investigations.md) | Next: [5. User & Environment Behavioral Analysis](06_behavioral-analysis-forensic-lab.md) | [Contents](../README.MD)

@@ -93,4 +93,4 @@ user.
 ![](../media/image37.png)
 
 ---
-Prev: [1. Logon to the Monitoring Console](02_logon-to-monitoring-console.md) | Next: [3. Checking Alerts and Creating Investigations](04_checking-alerts-and-investigations.md) | [Contents](00_title-and-contents.md)
+Prev: [1. Logon to the Monitoring Console](02_logon-to-monitoring-console.md) | Next: [3. Checking Alerts and Creating Investigations](04_checking-alerts-and-investigations.md) | [Contents](../README.MD)

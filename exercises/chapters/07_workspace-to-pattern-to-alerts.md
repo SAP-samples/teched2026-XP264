@@ -110,4 +110,4 @@ In the following screen, press "Add and Show Investigation":
 ![](../media/image90.png)
 
 ---
-Prev: [5. User & Environment Behavioral Analysis](06_behavioral-analysis-forensic-lab.md) | Next: [7. Finalize the Investigation](08_finalize-the-investigation.md) | [Contents](00_title-and-contents.md)
+Prev: [5. User & Environment Behavioral Analysis](06_behavioral-analysis-forensic-lab.md) | Next: [7. Finalize the Investigation](08_finalize-the-investigation.md) | [Contents](../README.MD)

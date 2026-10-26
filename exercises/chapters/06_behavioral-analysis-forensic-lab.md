@@ -115,7 +115,7 @@ S4/H system got a mass change by adding a high privilege.]{.mark}
   Symbol) to do a preview on the data filtered in Subset 1 in the
   Preview area.
 
-- Sometimes click on the 'Save' Button
+- Then click on the 'Save' Button
 
 > ![](../media/image69.png)
 
@@ -164,9 +164,9 @@ contains typical predelivered values for Profiles (e.g. SAP_ALL,
 SAP_NEW, ...). The filter is then set as an 'IN'-filter about all
 values.
 
-To be able to corelate the provisioning of a high privilege with the
+To be able to correlate the provisioning of a high privilege with the
 miss-use of the privilege (in the example: look up Password hashes), a
-second filter path needs to filter on that activity, and then corelate
+second filter path needs to filter on that activity, and then correlate
 to the high privilege provisioning (via reference filter).
 
 - Click the 'Create Path' Symbol
@@ -248,7 +248,7 @@ to the high privilege provisioning (via reference filter).
 - Your new Subset is showing as 'Subset 3' in Path 2. By refreshing and
   selecting the Pie Chart you can see some data in Subset 3.
 
-- Finally, create a Subset, which corelates between Path 1 filter
+- Finally, create a Subset, which correlates between Path 1 filter
   results for provisioning of high privileges to a **target** user, and
   path 2 results for the same **acting** user accessing a critical DB
   table with Password hashes. Use the following values:
@@ -335,4 +335,4 @@ user):
 > grouped attributes, there would arrive another bar in the bar chart.
 
 ---
-Prev: [4. Trigger a Critical Action from SAP S/4HANA](05_trigger-critical-action.md) | Next: [6. From Workspace to Pattern to Alerts](07_workspace-to-pattern-to-alerts.md) | [Contents](00_title-and-contents.md)
+Prev: [4. Trigger a Critical Action from SAP S/4HANA](05_trigger-critical-action.md) | Next: [6. From Workspace to Pattern to Alerts](07_workspace-to-pattern-to-alerts.md) | [Contents](../README.MD)

@@ -25,8 +25,8 @@ document:
 
 ![](../media/image1.png)
 
-Chapters 1 to 7 are related to these to roles. Chapter 8 is related to
+Chapters 1 to 7 are related to these two roles. Chapter 8 is related to
 the consumer/processor role
 
 ---
-Next: [1. Logon to the Monitoring Console](02_logon-to-monitoring-console.md) | [Contents](00_title-and-contents.md)
+Next: [1. Logon to the Monitoring Console](02_logon-to-monitoring-console.md) | [Contents](../README.MD)

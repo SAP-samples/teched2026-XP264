@@ -8,7 +8,7 @@ Console. If necessary, log on again with your user for ETD, and in the
 Select Tenant app, select the tenant "Workshop Demo Customer".
 
 If you receive the 'Select a Tenant' popup, refer to section
-[[1.1]{.underline}](02_logon-to-monitoring-console.md#got-a-warning-select-a-tenant) how to resolve.
+[1.1](02_logon-to-monitoring-console.md#got-a-warning-select-a-tenant) how to resolve.
 
 ## Check for Log Events
 
@@ -107,7 +107,7 @@ triggering Events.
 
 ### Tab 'Actions'
 
-> In Tab 'Actions, you find all activities, so far done as actions
+> In Tab 'Actions', you find all activities, so far done as actions
 > related to the current investigation. Additionally, you may document
 > anything (if not wanted in the Edit-field for the 'Investigation
 > Result') - actions you have been performing, preliminary findings etc.
@@ -161,7 +161,7 @@ to the investigation
 
 ![](../media/image50.png)
 
-After adding, the number of Log Events in the 'Log Events' tab Is raised
+After adding, the number of Log Events in the 'Log Events' tab is raised
 
 ### Tab 'Log Events'
 
@@ -171,4 +171,4 @@ Viewer' Tile), or semi-automatically (as suggestion from the AI from a
 Behaviour Analysis).
 
 ---
-Prev: [2. First Log Events from SAP S/4HANA](03_first-log-events.md) | Next: [4. Trigger a Critical Action from SAP S/4HANA](05_trigger-critical-action.md) | [Contents](00_title-and-contents.md)
+Prev: [2. First Log Events from SAP S/4HANA](03_first-log-events.md) | Next: [4. Trigger a Critical Action from SAP S/4HANA](05_trigger-critical-action.md) | [Contents](../README.MD)

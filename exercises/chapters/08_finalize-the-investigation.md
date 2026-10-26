@@ -36,10 +36,10 @@ You can now conclude the Investigation.
 
 - As the user ID FALSEUSR## was newly involved into the investigation,
   and did the 'critical things', it might make sense to additionally
-  execute a behavior analysis for the user FAKEUSR##, and add
+  execute a behavior analysis for the user FALSEUSR##, and add
   corresponding additional log events from that step into your
   investigation (see chapter [3.3.5](04_checking-alerts-and-investigations.md#tab-behavior-analysis)). You
-  should find additional log events to things, which user FAKEUSR##
+  should find additional log events to things, which user FALSEUSR##
   additionally did, and which were not involved as triggering events
   within alerts in the investigation.
 
@@ -61,4 +61,4 @@ chapter), who may involve their security team to take action on the
 system users and physical persons behind them.
 
 ---
-Prev: [6. From Workspace to Pattern to Alerts](07_workspace-to-pattern-to-alerts.md) | Next: [8. Consumer/Processor role](09_consumer-processor-role.md) | [Contents](00_title-and-contents.md)
+Prev: [6. From Workspace to Pattern to Alerts](07_workspace-to-pattern-to-alerts.md) | Next: [8. Consumer/Processor role](09_consumer-processor-role.md) | [Contents](../README.MD)

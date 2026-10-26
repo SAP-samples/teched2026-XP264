@@ -92,4 +92,4 @@ can search for it
 ![](../media/image108.png)
 
 ---
-Prev: [7. Finalize the Investigation](08_finalize-the-investigation.md) | [Contents](00_title-and-contents.md)
+Prev: [7. Finalize the Investigation](08_finalize-the-investigation.md) | [Contents](../README.MD)

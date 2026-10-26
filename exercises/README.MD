@@ -10,14 +10,13 @@ October 2026**
 
 # Contents
 
-[0. Overview & Touring SAP Enterprise Threat Detection, public cloud](./chapters/01_overview.md)
+[1. Getting started](./chapters/01_getting-started.md)
 
-[1. Logon to the Monitoring Console of SAP Enterprise Threat Detection,
-public cloud](./chapters/02_logon-to-monitoring-console.md)
+[1.1 Logon to the Monitoring Console](./chapters/01_getting-started.md#logon-to-the-monitoring-console)
 
-[1.1 Got a Warning 'Select a tenant'](./chapters/02_logon-to-monitoring-console.md#got-a-warning-select-a-tenant)
+[1.2 Got a Warning 'Select a tenant'](./chapters/01_getting-started.md#got-a-warning-select-a-tenant)
 
-[1.2 UI Round Trip](./chapters/02_logon-to-monitoring-console.md#ui-round-trip)
+[2. UI Round trip](./chapters/02_ui-round-trip.md)
 
 [2. First Log Events from SAP S/4HANA](./chapters/03_first-log-events.md)
 

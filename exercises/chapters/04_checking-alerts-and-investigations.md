@@ -31,7 +31,7 @@ If you receive the 'Select a Tenant' popup, refer to section
   little time -- generation for these Alerts is triggered by a job every
   few minutes.
 
-- Then, filter for your user FALSEADM[\##]{.mark} in the Trigger Value 1
+- Then, filter for your user FALSEADM## in the Trigger Value 1
   or 2 fields, and press "go". Mark some Alerts you find relevant (or
   all), and in the bottom right corner, click on "Create Investigation".
 

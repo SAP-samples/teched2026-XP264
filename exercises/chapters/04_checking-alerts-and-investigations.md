@@ -8,7 +8,7 @@ Console. If necessary, log on again with your user for ETD, and in the
 Select Tenant app, select the tenant "Workshop Demo Customer".
 
 If you receive the 'Select a Tenant' popup, refer to section
-[1.1](02_logon-to-monitoring-console.md#got-a-warning-select-a-tenant) how to resolve.
+[1.1](01_getting-started.md#got-a-warning-select-a-tenant) how to resolve.
 
 ## Check for Log Events
 

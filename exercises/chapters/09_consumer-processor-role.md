@@ -22,7 +22,7 @@ The report you download then looks like:
 
 **This part of the exercise is Demo only!**
 
-You are now switching to your 3^rd^ role as consumer/processor of the
+You are now switching to your third role as consumer/processor of the
 final product, the investigation report.
 
 Logon to the consumer view of SAP Enterprise Threat Detection, cloud

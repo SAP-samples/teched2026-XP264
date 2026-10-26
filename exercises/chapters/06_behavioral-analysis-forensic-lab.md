@@ -121,7 +121,7 @@ S4/H system got a mass change by adding a high privilege.
 
 - Create a new Subset
   ![](../media/image67.png) to filter (for Demo Purposes) on your
-  own ABAP User FALSEADM\<YourNumber\>. In the Popup enter:
+  own ABAP User FALSEADM##. In the Popup enter:
 
   - Semantic Attribute: User Pseudonym, Target
 
@@ -129,7 +129,7 @@ S4/H system got a mass change by adding a high privilege.
 
   - Operator: Equal
 
-  - Value: FALSEADM\<YourNumber\>
+  - Value: FALSEADM##
 
 - Then click on 'Create'
 
@@ -193,7 +193,7 @@ to the high privilege provisioning (via reference filter).
   - Value: SE16, SE16N, SE11
 
     i.  **Hint**: To enter the In-Value List, enter the
-        1^st^ value, then press 'Enter', then enter the 2^nd^/next value
+        first value, then press 'Enter', then enter the second/next value
         and always press 'Enter' in between. The single values are shown
         separately.
 
@@ -215,7 +215,7 @@ to the high privilege provisioning (via reference filter).
   - Value: Data, Download ; Database, Data, Select, Generic
 
     i.  **Hint**: To enter the In-Value List, enter the
-        1^st^ value, then press 'Enter', then enter the 2^nd^/next value
+        first value, then press 'Enter', then enter the second/next value
         and always press 'Enter' in between. The single values are shown
         separately. You can as well check if the Semantic events are
         visible in the selection box, then you can select them via
@@ -304,7 +304,7 @@ Then press "Create Chart":
 ![](../media/image78.png)
 
 In the pop-up, assign a name among the lines of
-"\<YourNumber\>PWHashAttack", and a description. Mark down the name.
+"##PWHashAttack", and a description. Mark down the name.
 
 For measurement, choose the "count" \* and a fitting Display Name if you
 like:

@@ -1,12 +1,12 @@
 # UI Round trip
 
-In the 'Manage Settings' tab, users can manage system setting like retention
+In the 'Manage Settings' tab, users can manage system settings like retention
 times and time zone etc.
 
 ![](../media/image8.png)
 
-In the 'Value Lists' tab, users can manage value lists which are allow or
-disallow list where system analyst can put custom values and even can
+In the 'Value Lists' tab, users can manage value lists which are allow- or
+disallow-lists where the system analyst can put custom values and even can
 create custom value lists.
 
 ![](../media/image9.png)
@@ -26,7 +26,7 @@ information.
 
 ![](../media/image11.png)
 
-As you know: AI can provide wrong information. Then, you can provide a
+As you know: AI can provide wrong information. Then, you can provide
 feedback to SAP via the 'Feedback' button, and SAP will centrally repair
 the AI answer, to enhance quality.
 
@@ -41,7 +41,7 @@ object, its criticality, and possible security mitigations.
 
 ![](../media/image13.png)
 
-In the 'Manage Alerts' tab, system analyst can view and analyze generated
+In the 'Manage Alerts' tab, the system analyst can view and analyze generated
 alerts.
 
 ![](../media/image14.png)

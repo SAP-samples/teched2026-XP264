@@ -21,12 +21,12 @@ security specialist.
 
 Here's the flow of the following exercises in your roles as threat actor
 and security specialist (the numbers relate to the chapters in this
-document:
+document):
 
 ![](../media/image1.png)
 
 Chapters 1 to 7 are related to these two roles. Chapter 8 is related to
-the consumer/processor role
+the consumer/processor role.
 
 ## Logon to the Monitoring Console
 
@@ -60,11 +60,11 @@ afterwards referred to as "##").
 If you inadvertently lock the password, please notify the instructor.
 
 If you receive a blank screen saying "Where to", please clear the cache,
-then close and restart the browser. If you may also open an private
+then close and restart the browser. You may also open a private
 browsing window (often "incognito" or "InPrivate"). Log on again.
 
-Upon initial logon, In case you get pop-up message to select a Tenant,
-than click the Select Tenant screen for selecting a specific Tenant:
+Upon initial logon, in case you get a pop-up message to select a Tenant,
+then click the Select Tenant screen for selecting a specific Tenant:
 
 As a monitoring agent providing services to multiple clients, you will
 log on to your organization's own productive Tenant; however from here

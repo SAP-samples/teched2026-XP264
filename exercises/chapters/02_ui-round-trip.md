@@ -31,7 +31,7 @@ feedback to SAP via the 'Feedback' button, and SAP will centrally repair
 the AI answer, to enhance quality.
 
 In the 'Analyze Log Events' tab, the security analyst can view and analyze
-customers normalized log data.
+customers' normalized log data.
 
 ![](../media/image12.png)
 
@@ -57,7 +57,7 @@ status of pattern executions.
 
 ![](../media/image16.png)
 
-In the 'Patterns' tab, the security analyst can view and create patterns( i.e.
+In the 'Patterns' tab, the security analyst can view and create patterns (i.e.
 use cases) ![](../media/image17.png)
 
 Clicking on one of the patterns, the UI shows its overall modelling and
@@ -87,7 +87,7 @@ investigations.
 ![](../media/image20.png)
 
 In the 'Record of Actions' tab, system analysts view activity logs of
-ETD system
+the ETD system
 
 ![](../media/image21.png)
 
@@ -106,7 +106,7 @@ created.
 
 By clicking onto the arrow on the right at any line, you see the
 modelling of the forensic workspace, related to filter paths and charts.
-This so part of exercise chapter [5.1](06_behavioral-analysis-forensic-lab.md#build-up-a-workspace).
+This is part of exercise chapter [5.1](06_behavioral-analysis-forensic-lab.md#build-up-a-workspace).
 
 In the 'Dashboard' tile, different standard dashboards are shown, and own
 custom dashboards can be created.
@@ -127,7 +127,7 @@ ID, or of a special log type.
 In the 'Resolve User Identity' tile, the security analyst can
 de-pseudonymize user pseudonyms. This might be needed in case there are
 evidences of a suspicious activity of a user. In order to be able to
-search for a activities of a user (e.g. as to external signals), the
+search for the activities of a user (e.g. as to external signals), the
 user's pseudonym can be determined reverse, to search for it in the log
 data.
 

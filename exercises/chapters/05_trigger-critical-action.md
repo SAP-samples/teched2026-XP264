@@ -8,7 +8,7 @@ First, you need to log on to the SAP S/4HANA with the newly generated
 user FALSEUSR##.
 
 - In order to log on with your new user FALSEUSR##, you need to either
-  **[open a new "incognito"/"private" session in your browser]{.mark}.**
+  **open a new "incognito"/"private" session in your browser.**
 
 Alternatively, you may also switch to another browser.
 Emptying the browser cache is also an option. Here, mark at least

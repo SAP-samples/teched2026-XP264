@@ -90,9 +90,9 @@ The Workspace will look similar like this one:
 >
 > ![](../media/image66.png)
 
-**Information:** [To be able to see some data in the following filter
+**Information:** To be able to see some data in the following filter
 steps, directly before the session started, all FALSEADM## users in the
-S4/H system got a mass change by adding a high privilege.]{.mark}
+S4/H system got a mass change by adding a high privilege.
 
 - By clicking on the 'Create Subset'
   ![](../media/image67.png) Symbol, a Popup appears to enter the
@@ -192,7 +192,7 @@ to the high privilege provisioning (via reference filter).
 
   - Value: SE16, SE16N, SE11
 
-    i.  **[Hint]{.underline}**: To enter the In-Value List, enter the
+    i.  **Hint**: To enter the In-Value List, enter the
         1^st^ value, then press 'Enter', then enter the 2^nd^/next value
         and always press 'Enter' in between. The single values are shown
         separately.
@@ -214,7 +214,7 @@ to the high privilege provisioning (via reference filter).
 
   - Value: Data, Download ; Database, Data, Select, Generic
 
-    i.  **[Hint]{.underline}**: To enter the In-Value List, enter the
+    i.  **Hint**: To enter the In-Value List, enter the
         1^st^ value, then press 'Enter', then enter the 2^nd^/next value
         and always press 'Enter' in between. The single values are shown
         separately. You can as well check if the Semantic events are
@@ -270,7 +270,7 @@ to the high privilege provisioning (via reference filter).
 - Your new Subset is showing as 'Subset 4' in Path 2. By refreshing and
   selecting the Pie Chart you can see some data in Subset 4. Data can be
   seen if within last 2 hours the user got a high privilege,
-  [and]{.underline} in the same timeframe accessed a critical DB table.
+  and in the same timeframe accessed a critical DB table.
 
 The final result should look like this:
 
@@ -329,7 +329,7 @@ user):
 
 ![](../media/image80.png)
 
-- [Finally, click the 'Save' Button]{.mark}
+- Finally, click the 'Save' Button
 
 > Note: Per each deviating combination of the (in this example) 4
 > grouped attributes, there would arrive another bar in the bar chart.

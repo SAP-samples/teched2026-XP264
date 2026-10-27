@@ -17,4 +17,4 @@ No specific pre -requirements to follow the exercises in this repository.
 PLease look at the [README](exercises/README.MD) of the exercises folder
 
 ## License
-Copyright (20xx-)20xx SAP SE or an SAP affiliate company and <your-project> contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/<your-project>).
+Copyright (20xx-)20xx SAP SE or an SAP affiliate company and teched2026-XP264 contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/teched2026-XP264).

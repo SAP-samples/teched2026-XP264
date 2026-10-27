@@ -118,7 +118,7 @@ of predefined charts.
 
 ![](../media/image25.png)
 
-In the 'Manage Incoming logs' tile, the security analyst can view
+In the 'Monitor Incoming Logs' tile, the security analyst can view
 incoming logs, and find out, if there are any log outages from a system
 ID, or of a special log type.
 
